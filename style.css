@@ -1,0 +1,56 @@
+*{
+
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	background-image: url('C:/Users/User/Desktop/bg-intro-desktop.png'); background-color: #E27D60; opacity: 1;
+}
+main{
+	display: flex; width: 50%; height: 50%; margin: auto; justify-content: center; align-items: center; height: 100vh;
+}
+.header{
+	font-family: Arial, sans-serif; font-size: 50px; color: white;
+}
+#p1{
+	font-family: Arial, sans-serif; font-size: 15px; color: white;
+}
+
+.divide{
+	display: flex; flex-direction: column; text-align: center; 
+}
+
+.secondsidetop{
+	background-color: #4056A1; border-radius: 5px; box-shadow: 5px 5px #888888; padding: 10px; flex: 50%; width: 150%; color: white; font-family: arial;
+}
+
+.secondsidebottom{
+	background-color: white; border-radius: 5px; box-shadow: 5px 5px #888888; border: 1px ; padding: 30px; flex: 50%; width: 150%;
+}
+#sstt{
+	color: bold white ;
+}
+
+input[type=text]{
+	width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;
+}
+input[type=button]{
+	width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; background-color: #8EE4AF; color: white;
+}
+
+.foot{
+	font-size:10px; color: #379683; font-family: arial; 
+}
+
+#tas{
+	color: red;
+}
+
+input[type=text]:active {
+	width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid red; border-radius: 4px; box-sizing: border-box;
+}
+input[type=button]:hover {
+	width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; background-color: #5CDB95; color: white;
+}
