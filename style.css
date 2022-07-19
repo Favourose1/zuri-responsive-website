@@ -1,56 +1,139 @@
-*{
+* {
 
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-}
-
-body{
-	background-image: url('C:/Users/User/Desktop/bg-intro-desktop.png'); background-color: #E27D60; opacity: 1;
-}
-main{
-	display: flex; width: 50%; height: 50%; margin: auto; justify-content: center; align-items: center; height: 100vh;
-}
-.header{
-	font-family: Arial, sans-serif; font-size: 50px; color: white;
-}
-#p1{
-	font-family: Arial, sans-serif; font-size: 15px; color: white;
+	box-sizing: border-box;
+	
 }
 
-.divide{
-	display: flex; flex-direction: column; text-align: center; 
+body {
+	background-image: url('C:/Users/User/Desktop/ZURI WEB RESPONSIVE/images/bg-intro-desktop.png');
+	background-color: #E27D60;
+	opacity: 1;
+	
 }
 
-.secondsidetop{
-	background-color: #4056A1; border-radius: 5px; box-shadow: 5px 5px #888888; padding: 10px; flex: 50%; width: 150%; color: white; font-family: arial;
+@media(min-width:468px){
+	.flex-container{
+		display:  flex;
+		align-items: center;
+		justify-items: center;
+		min-height: 100vh;
+	}
+	
 }
 
-.secondsidebottom{
-	background-color: white; border-radius: 5px; box-shadow: 5px 5px #888888; border: 1px ; padding: 30px; flex: 50%; width: 150%;
-}
-#sstt{
-	color: bold white ;
+
+
+.firstside{
+	flex: 1; flex: 0.5%; padding: 10px;
 }
 
-input[type=text]{
-	width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;
-}
-input[type=button]{
-	width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; background-color: #8EE4AF; color: white;
+
+
+
+
+
+.header {
+	font-family: Arial, sans-serif;
+	font-size: 45px;
+	color: white;
+	/*width: 50%;*/
 }
 
-.foot{
-	font-size:10px; color: #379683; font-family: arial; 
+#p1 {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: white;
+	/*width: 50%;*/
 }
 
-#tas{
+.divide {
+	text-align: center; flex: 1; flex: 5%; padding-left: 50px; /*padding-right: 25px;*/
+}
+
+.secondsidetop {
+	background-color: #4056A1;
+	border-radius: 5px;
+	box-shadow: 5px 5px #888888;
+	padding: 10px;
+	/*flex: 50%;*/
+	color: white;
+	font-family: arial;
+	width: 75%;
+}
+.secondsidebottom {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 5px 5px #888888;
+	border: 1px;
+	padding: 30px;
+	width: 75%;
+}
+
+#sstt {
+	color: bold white;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=button] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background-color: #8EE4AF;
+	color: white;
+}
+
+.foot {
+	font-size: 10px;
+	color: #379683;
+	font-family: arial;
+}
+
+#tas {
 	color: red;
 }
 
 input[type=text]:active {
-	width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid red; border-radius: 4px; box-sizing: border-box;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid red;
+	border-radius: 4px;
+	box-sizing: border-box;
 }
+
 input[type=button]:hover {
-	width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; background-color: #5CDB95; color: white;
-}
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background-color: #5CDB95;
+	color: white;}
+
+
+
+
+
+
+
+
+
+
+
+
